@@ -74,7 +74,7 @@ class DBStorage:
     def get(self, cls, id):
         if cls and id:
 
-            return 
+            return
         else:
             return None
 
