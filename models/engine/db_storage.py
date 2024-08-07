@@ -72,6 +72,7 @@ class DBStorage:
         self.__session = Session
 
     def get(self, cls, id):
+        """me"""
         if cls and id:
 
             return
